@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link.active {
+    font-weight: 600;
+}
+.nav-link:hover {
+    font-weight: 600;
+    
+}
+.nav-link {
+    transition: 0.3s;
+}
+.navbar {
+    width: 80%;
+    margin: auto;
+}
+.text-title h1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+.input-group .form-control {
+    background-color: #eeeeee;
+}
+.text-card h3 {
+    font-weight: 600;
+}
+
+/* responsive mobile */
+@media (max-width: 576px) {
+    #home {
+        padding-top: 80px;
+    }
+
+    .text-title {
+        text-align: center;
+    }
+
+    .content {
+        padding-top: 50px;
+    }
+
+    footer {
+        margin-top: 80px;
+    }
+}
+/* end responsive mobile */
+
